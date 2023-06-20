@@ -12,7 +12,7 @@ router.post("/api/todo/login", login)
 
 router.post("/api/todo", Todos.add)
 
-router.get("/", Todos.get)
+router.get("/api/todo", Todos.get)
 
 router.patch("/api/todo/:id", Todos.update);
 
